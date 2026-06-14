@@ -66,7 +66,6 @@ const amenities = [
   { icon: Coffee, title: "Breakfast included", copy: "Start the day with complimentary breakfast." },
   { icon: Wifi, title: "Free Wi-Fi", copy: "Stay connected throughout the guesthouse." },
   { icon: Waves, title: "Outdoor pool", copy: "Unwind beside the courtyard swimming pool." },
-  { icon: Sparkles, title: "Steam room", copy: "A little extra ease after travel or meetings." },
   { icon: Car, title: "Parking available", copy: "Convenient parking for overnight guests." },
   { icon: ShieldCheck, title: "Residential setting", copy: "A quiet tree-lined street in Randpark Ridge." },
 ];
@@ -149,7 +148,7 @@ function App() {
           <div className="hero-strip">
             <span>4 individually decorated rooms</span>
             <span>Breakfast included</span>
-            <span>Pool, steam room and parking</span>
+            <span>Pool and parking</span>
           </div>
         </section>
 
