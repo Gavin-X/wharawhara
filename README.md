@@ -1,6 +1,6 @@
-# Whara Whara Guesthome
+# Whara Whara Guesthouse
 
-A modern, responsive React/Vite website for [Whara Whara Guesthome](https://wharawhara.co.za) — a premier guest accommodation destination in South Africa.
+A modern, responsive React/Vite website for [Whara Whara Guesthouse](https://wharawhara.co.za) — a premier guest accommodation destination in South Africa.
 
 ## 🌐 Live Site
 
@@ -96,11 +96,11 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## 📄 License
 
-This project is proprietary to Whara Whara Guesthome.
+This project is proprietary to Whara Whara Guesthouse.
 
 ## 📧 Contact
 
-For questions or inquiries about the site, please contact Whara Whara Guesthome through their website.
+For questions or inquiries about the site, please contact Whara Whara Guesthouse through their website.
 
 ---
 
