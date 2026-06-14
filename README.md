@@ -6,6 +6,10 @@ A modern, responsive React/Vite website for [Whara Whara Guesthouse](https://wha
 
 [wharawhara.co.za](https://wharawhara.co.za)
 
+## 🌐 Staging Site
+
+[wharawhara.truehosting.co.za](https://wharawhara.truehosting.co.za)
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: React + Vite
@@ -13,11 +17,6 @@ A modern, responsive React/Vite website for [Whara Whara Guesthouse](https://wha
 - **Build Tool**: Vite
 - **Deployment**: Vercel
 - **Language Composition**: HTML (37%), JavaScript (34.2%), CSS (28.8%)
-
-## 📋 Prerequisites
-
-- Node.js 16+ (recommend 18 or higher)
-- npm 7+ or yarn 3+
 
 ## 📁 Project Structure
 
@@ -30,12 +29,6 @@ wharawhara/
 ├── vite.config.js    # Vite configuration
 └── package.json      # Project dependencies
 ```
-
-## 📝 Available Scripts
-
-- `npm run dev` — Start development server with hot module replacement
-- `npm run build` — Create optimized production build
-- `npm run preview` — Preview production build locally
 
 ## 🤝 Contributing
 
