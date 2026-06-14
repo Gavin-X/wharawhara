@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block AI scrapers that don't respect crawl-delay (optional - uncomment to enable)
+# User-agent: GPTBot
+# Disallow: /
+# User-agent: Claude-Web
+# Disallow: /
+# User-agent: CCBot
+# Disallow: /
+
+Sitemap: https://wharawhara.co.za/sitemap.xml
