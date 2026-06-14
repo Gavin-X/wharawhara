@@ -64,7 +64,7 @@ const rooms = [
 
 const amenities = [
   { icon: Coffee, title: "Breakfast included", copy: "Start the day with complimentary breakfast." },
-  { icon: Wifi, title: "Free Wi-Fi", copy: "Stay connected throughout the guesthome." },
+  { icon: Wifi, title: "Free Wi-Fi", copy: "Stay connected throughout the guesthouse." },
   { icon: Waves, title: "Outdoor pool", copy: "Unwind beside the courtyard swimming pool." },
   { icon: Sparkles, title: "Steam room", copy: "A little extra ease after travel or meetings." },
   { icon: Car, title: "Parking available", copy: "Convenient parking for overnight guests." },
@@ -100,8 +100,8 @@ function App() {
   return (
     <>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Whara Whara Guesthome home">
-          <img src={images.logo} alt="Whara Whara Guesthome" />
+        <a className="brand" href="#top" aria-label="Whara Whara Guesthouse">
+          <img src={images.logo} alt="Whara Whara Guesthouse" />
         </a>
         <nav className={menuOpen ? "nav open" : "nav"} aria-label="Main navigation">
           {navItems.map((item) => (
@@ -126,13 +126,13 @@ function App() {
 
       <main id="top">
         <section className="hero">
-          <img src={images.hero} alt="Whara Whara Guesthome exterior and pool courtyard" />
+          <img src={images.hero} alt="Whara Whara Guesthouse exterior and pool courtyard" />
           <div className="hero-overlay" />
           <div className="hero-content">
             <p className="eyebrow">Randpark Ridge, Randburg</p>
-            <h1>Whara Whara Guesthome</h1>
+            <h1>Whara Whara Guesthouse</h1>
             <p>
-              A friendly four-room guesthome on a tree-lined residential street, close to
+              A friendly four-room Guesthouse on a tree-lined residential street, close to
               Randridge Mall, Lanseria International Airport, and Johannesburg city centre.
             </p>
             <div className="hero-actions">
@@ -161,7 +161,7 @@ function App() {
           <div className="intro-grid">
             <div className="intro-copy">
               <p>
-                Whara Whara Guesthome is situated in Randpark Ridge, just 2 km from
+                Whara Whara Guesthouse is situated in Randpark Ridge, just 2 km from
                 Randridge Mall, 20 km from Lanseria International Airport, and 22 km
                 from Johannesburg city centre.
               </p>
@@ -171,7 +171,7 @@ function App() {
                 Some en suite bathrooms include showers only.
               </p>
             </div>
-            <div className="stat-panel" aria-label="Guesthome highlights">
+            <div className="stat-panel" aria-label="Guesthouse highlights">
               <div>
                 <strong>2 km</strong>
                 <span>to Randridge Mall</span>
@@ -201,7 +201,7 @@ function App() {
                     <img
                       key={image}
                       src={image}
-                      alt={`${room.name} ${index + 1} at Whara Whara Guesthome`}
+                      alt={`${room.name} ${index + 1} at Whara Whara Guesthouse`}
                     />
                   ))}
                 </div>
@@ -219,7 +219,7 @@ function App() {
 
         <section className="feature-band" id="amenities">
           <div className="feature-image">
-            <img src={images.pool} alt="Swimming pool and guest seating at Whara Whara Guesthome" />
+            <img src={images.pool} alt="Swimming pool and guest seating at Whara Whara Guesthouse" />
           </div>
           <div className="feature-content">
             <p className="eyebrow">Amenities</p>
@@ -322,8 +322,8 @@ function App() {
 
       <footer>
         <div>
-          <img src={images.logo} alt="Whara Whara Guesthome" />
-          <p>Whara Whara Guesthome, Randpark Ridge, Randburg.</p>
+          <img src={images.logo} alt="Whara Whara Guesthouse" />
+          <p>Whara Whara Guesthouse, Randpark Ridge, Randburg.</p>
         </div>
         <div className="footer-actions">
           <a href={bookingUrl} target="_blank" rel="noreferrer">
