@@ -201,6 +201,7 @@ function App() {
                       key={image}
                       src={image}
                       alt={`${room.name} ${index + 1} at Whara Whara Guesthouse`}
+                      loading="lazy"
                     />
                   ))}
                 </div>
@@ -218,7 +219,7 @@ function App() {
 
         <section className="feature-band" id="amenities">
           <div className="feature-image">
-            <img src={images.pool} alt="Swimming pool and guest seating at Whara Whara Guesthouse" />
+            <img src={images.pool} alt="Swimming pool and guest seating at Whara Whara Guesthouse" loading="lazy" width="760" height="800" />
           </div>
           <div className="feature-content">
             <p className="eyebrow">Amenities</p>
