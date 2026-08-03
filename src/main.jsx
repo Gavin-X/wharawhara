@@ -221,15 +221,8 @@ function App() {
           <div className="room-grid">
             {rooms.map((room) => (
               <article className="room-card" key={room.name}>
-                <div className={room.images.length > 1 ? "room-media split" : "room-media"}>
-                  {room.images.map((image, index) => (
-                    <img
-                      key={image}
-                      src={image}
-                      alt={`${room.name} view ${index + 1}`}
-                      loading="lazy"
-                    />
-                  ))}
+                <div className="room-media">
+                  <img src={room.images[0]} alt={`${room.name} at Whara Whara Guesthouse`} loading="lazy" />
                 </div>
                 <div className="room-copy">
                   <span className="room-key" aria-hidden="true">

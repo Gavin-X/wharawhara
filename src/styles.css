@@ -411,10 +411,6 @@ h3 {
   display: grid;
 }
 
-.room-media.split {
-  grid-template-columns: 1fr 1fr;
-}
-
 .room-media img {
   aspect-ratio: 4 / 3;
   height: 100%;
