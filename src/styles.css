@@ -322,7 +322,7 @@ h3 {
   border-bottom: 1px solid var(--line);
   border-top: 1px solid var(--line);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .fact-strip div {
@@ -721,6 +721,19 @@ h3 {
 
   .courtyard-photo {
     min-height: 420px;
+  }
+
+  .fact-strip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fact-strip div:nth-child(2n) {
+    border-right: 0;
+  }
+
+  .fact-strip div:nth-last-child(1):nth-child(odd) {
+    grid-column: 1 / -1;
+    border-right: 0;
   }
 }
 

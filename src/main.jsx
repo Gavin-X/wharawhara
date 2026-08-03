@@ -42,6 +42,8 @@ const quickFacts = [
   ["4", "individually decorated rooms"],
   ["2 km", "from Randridge Mall"],
   ["20 km", "from Lanseria Airport"],
+  ["22 km", "from Johannesburg city centre"],
+  ["08:00-22:00", "open daily"],
 ];
 
 const rooms = [
@@ -201,8 +203,8 @@ function App() {
           <div className="copy-stack">
             <p>
               Whara Whara Guesthouse sits on Knoppiesdoring Street in Randpark Ridge,
-              close to Randridge Mall, Lanseria International Airport, and central
-              Johannesburg routes.
+              just 2 km from Randridge Mall, 20 km from Lanseria International Airport,
+              and 22 km from Johannesburg city centre.
             </p>
             <p>
               Rooms are individually furnished and simply practical: flat-screen TV,
